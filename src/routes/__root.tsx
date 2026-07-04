@@ -38,7 +38,7 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
         <h1 className="font-display text-2xl font-semibold">Something went wrong</h1>
         <p className="mt-2 text-sm text-muted-foreground">Please refresh, or head back home.</p>
         <div className="mt-6 flex justify-center gap-2">
-          <button onClick={() => { router.invalidate(); reset(); }} className="rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium">
+          <button onClick={() => { reset(); window.location.reload(); }} className="rounded-full bg-primary text-primary-foreground px-6 py-3 text-sm font-medium">
             Try again
           </button>
           <a href="/" className="rounded-full border border-border px-6 py-3 text-sm font-medium">Home</a>

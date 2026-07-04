@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [
     tanstackStart({
       server: {
-        preset: "netlify",
+        preset: "vercel",
         entry: "server",
       }
     }),
