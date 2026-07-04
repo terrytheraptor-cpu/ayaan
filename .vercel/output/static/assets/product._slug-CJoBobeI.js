@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-CZcjcDnw.js";var t=e(),n=()=>(0,t.jsx)(`div`,{className:`container-luxe py-32 text-center`,children:`Product not found`});export{n as notFoundComponent};

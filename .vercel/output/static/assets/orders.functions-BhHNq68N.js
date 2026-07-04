@@ -1,0 +1,1 @@
+import{n as e,t}from"./createServerFn-CKO_C5XF.js";import{W as n}from"./index-CyqpsPw_.js";var r=n({type:`function`}),i=t({method:`POST`}).middleware([r]).handler(e(`a6485a0caa6c7276b8f38fd2e39c7cd965ae3addca5ff318987f97661206380a`)),a=t({method:`GET`}).middleware([r]).handler(e(`3265360dd1bb8505874dca36fc08c120c489507fb549e4925a945a8286e7a79a`));export{i as n,a as t};
