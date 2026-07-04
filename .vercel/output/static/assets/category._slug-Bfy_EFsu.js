@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-CZcjcDnw.js";var t=e(),n=({error:e})=>(0,t.jsx)(`div`,{className:`container-luxe py-32 text-center`,children:e.message});export{n as errorComponent};
